@@ -28,6 +28,49 @@ let cars = [
     { make: "Ford", model: "Mustang", year: 2021 }
 ];
 
+console.log("")
 console.log(cars[0].make, cars[0].model, cars[0].year);
 console.log(cars[1].make, cars[1].model, cars[1].year);
 console.log(cars[2].make, cars[2].model, cars[2].year);
+
+//Function details containing name of student, age, and course
+function studentDetails(name, age, course) {
+    return `Student Name: ${name}, Age: ${age}, Course: ${course}`;
+}
+console.log("")
+console.log(studentDetails("John Doe", 20, "Computer Science"));
+
+//function that returns price and quantity
+function sales(price, quantity) {
+    return `Price of the item is: ${price}, Quantity of the item is: ${quantity}`
+}
+console.log("")
+console.log(sales(160, 70));
+
+
+let products = [{
+        name: 'Laptop',
+        model: 'Lenovo',
+        price: '7400',
+        quantity: '4'
+    },
+    {
+        name: 'Car',
+        model: 'CLA220d',
+        price: '980000',
+        quantity: '1'
+    },
+    {
+        name: 'Tropika',
+        model: 'Orange',
+        price: '40',
+        quantity: '3'
+    }]
+;
+
+function display() {
+    return (products[2].name)
+
+}
+console.log("")
+console.log(display());
