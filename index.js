@@ -21,5 +21,13 @@ if (cities.includes("Bloemfontein")) {
 let reversedCities = cities.reverse();
 console.log(reversedCities);
 
+//Objects arrays
+let cars = [
+    { make: "Toyota", model: "Corolla", year: 2020 },
+    { make: "Honda", model: "Civic", year: 2019 },
+    { make: "Ford", model: "Mustang", year: 2021 }
+];
 
-
+console.log(cars[0].make, cars[0].model, cars[0].year);
+console.log(cars[1].make, cars[1].model, cars[1].year);
+console.log(cars[2].make, cars[2].model, cars[2].year);
