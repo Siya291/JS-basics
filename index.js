@@ -74,3 +74,21 @@ function display() {
 }
 console.log("")
 console.log(display());
+
+let objMe = [
+    {
+        name: 'Siyabonga',
+        surname: 'Ngobeni',
+        objProduct: [
+            { prodName: 'Mouse', prodPrice: '250', prodQuantity: '1' },
+            { prodName: 'Laptop', prodPrice: '7400', prodQuantity: '2' },
+            { prodName: 'Screen', prodPrice: '3300', prodQuantity: '3' }
+        ]
+    }
+];
+
+function priceQuantity() {
+    return (objMe[0].objProduct[2])
+}
+console.log("")
+console.log(priceQuantity());
